@@ -1,0 +1,46 @@
+------Data Wrangling JSON Exercise Instructions------
+
+Using data in file 'data/world_bank_projects.json', complete the following:
+
+(1) Find the 10 countries with most projects
+(2) Find the top 10 major project themes (using column 'mjtheme_namecode')
+(3) In 2. above you will notice that some entries have only the code and the name is missing. Create a dataframe with the missing names filled in.
+
+------Data Wrangling JSON Exercise Results------
+
+The 10 countries with most projects, and number of projects:
+China                 19
+Indonesia             19
+Vietnam               17
+India                 16
+Yemen, Republic of    13
+Morocco               12
+Nepal                 12
+Bangladesh            12
+Mozambique            11
+Africa                11
+
+The top 10 major project themes (by code), and the number of projects:
+11    250
+10    216
+8     210
+2     199
+6     168
+4     146
+7     130
+5      77
+9      50
+1      38
+
+The top 10 major project themes (by name), and the number of projects:
+Environment and natural resources management    250
+Rural development                               216
+Human development                               210
+Public sector governance                        199
+Social protection and risk management           168
+Financial and private sector development        146
+Social dev/gender/inclusion                     130
+Trade and integration                            77
+Urban development                                50
+Economic management                              38
+
